@@ -6,58 +6,108 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <title>casa de adoção para animais</title>
+    <title>Cantinho dos Bichos</title>
+    <link rel="icon" href="/Imagens/logo.png">
 </head>
 <body>
+  <div>
     <header>
-    <img src="logo.png"height="100px" width="100px">
-    <h1>Casa de adoção cantinho dos bichos</h1> 
+        <div id="area-logo">
+            <h1><img src= "Imagens/logo.png"></img><span>Cantinho</span> dos Bichos</h1>
+        </div>           
+        <nav>
+            <ul id="area-menu">
+                <li><a id="link" href="#container-segundario">A Instituição</a></li>              
+                <li><a id="link" href="#container-terciario">Parceiras</a></li>              
+                <li><a id="link" href="#container-quaternario">Animais</a></li>              
+                <li><a id="link" href="#container-quinario">Contato</a></li>              
+                <li><a href='/Cadastro/Cadastro.html'><button type="button" id="button-type-1" target="_blank">Criar Conta</button></a></li>
+                <li><a href='/Login/Login.html'><button type="button" id="button-type-1" target="_blank">Login</button></a></li>
+            </ul>
+        </nav>
 
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Animais Disponiveis</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Como Adotar</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Contato</a>
-        </li>
-      </ul>
     </header>
-<section class="hero">
-        <h2>Encontre o seu novo melhor amigo</h2>
-        <p>Adote um animal de estimação hoje mesmo!</p>
-        <a href="#" class="cta-button">Ver Animais Disponíveis</a>
-    </section>
-    
-    <section class="animal-list">
-        <h2>Animais Disponíveis para Adoção</h2>
-        <div class="animal-card">
-            <img src="viralata.jpg" height="100px" width="100px">
-            <h3>Caetano</h3>
-            <p>Idade: 2 anos</p>
-            <p>Sexo: Macho</p>
-            <p>Localização: Abrigo da Cidade</p>
-            <a href="#" class="cta-button">Adotar</a>
+
+    <div id="container-primario">
+        <div className="container-separador1">
+            <h1>Torne uma vida mais feliz:</h1>
+            <h1> Adote um amigo!</h1>
+            <p>Você já considerou a alegria que um animal de estimação pode trazer à sua vida?</p>
+            <p>Eles não são apenas companheiros leais, mas também fontes inesgotáveis de amor, risos e ternura</p>
+
         </div>
+
         
-        <div class="animal-card">
-            <img src="gata2.jpg" height="100px" width="100px">
-            <h3>Anastacia</h3>
-            <p>Idade: 1 ano</p>
-            <p>Sexo: Fêmea</p>
-            <p>Localização: Abrigo da Cidade</p>
-            <a href="#" class="cta-button">Adotar</a>
+    </div>
+
+    <div id="container-segundario">
+        <div className="container-separador">
+            <h1>Quem somos?</h1>
+            <p>Somos a Cantinho dos Bichos. Um cantinho que oferecemos para nossos melhores amigos.</p>
+            <p>Nossa missão é resgatar, reabilitar e encontrar lares amorosos para animais abandonados e maltratados.</p>
+            <p>Estamos comprometidos em melhorar a vida de animais em situações de risco</p>
+            <p>E promovendo a conscientização sobre a importância da adoção responsável e do bem-estar dos nossos melhores amigos.</p>
+
         </div>
-    </section>
+
+        <div className="container-separador">
+            <h1>Nossa história</h1>
+            <p>A ONG foi fundada em 2023 por um grupo de apaixonados por animais que começou com um pequeno abrigo improvisado em um quintal.</p>
+            <p>Com o tempo, nossa dedicação e compromisso cresceram, e agora somos uma organização de resgate e adoção de animais estabelecida.</p>
+            <p>Hoje contamos com uma grande equipe dedicada de voluntários e veterinários.</p>
+            <p>Todos prontos para ajudar com o que for nossos melhores amigos!</p>
+        </div>
+    </div>
+    <div className="container-terciario" id="container-terciario">
+        <div className="container-separador">
+         <h1>Instituições Parceiras</h1>
+            <p>Trabalhamos em estreita colaboração com clínicas veterinárias locais</p>
+            <p>Também temos parceria com organizações de resgate de animais em abandono</p>
+            <p>Além de termos nossos parceiros voluntários que lutam pela nossa causa.</p>
+            <br>
+        <div className="container-separador">
+            <h1>Seja uma Instituição Parceira</h1>
+            <h1>E venha fazer parte da nossa causa!</h1>
+            <br>
+            <p>Consulte os contatos ao final da página.</p>
+        </div> 
+
+        </div>
     
-    <footer>
-        <p>&copy; 2023 Sistema de Adoção de Animais</p>
-    </footer>
+    </div>
+
+    <div className="container-quaternario" id="container-quaternario">
+        <div className="container-separador">
+            <img src="/Imagens/froid.jpg">
+            <img src="/Imagens/viralata.jpg">
+            <img src="/Imagens/gata.jpg">
+            <img src="/Imagens/gata2.jpg">
+            <img src="/Imagens/porquinho.jpg">
+        </div>
+        <div className="container-separador01" id="container-separador01">
+        <h1>Animais</h1>
+        <h1>Para Adoção</h1>
+        <br>
+        </div>
+    </div>
+
+    <div className="container-quaternario" id="container-quinario">
+        <div className="container-separador">
+            <h1>Adote um melhor amigo hoje mesmo!</h1>
+            <p>Rua XV de Novembro, 7740 - XXXXX-XXX - Guarapuava, PR</p>
+            <p>Telefone: (42) XXXXX-XXXX</p>
+            <p>E-mail: adocao@cantinho.com.br</p>
+            <p>Cantinho dos Bichos - Casa de Adoção - CNPJ XX.XXX.XXX/XXXX-XX</p>
+
+        </div>
+    <div className="container-separador">
+        <img src="/Imagens/instagram.png">
+        <img src="/Imagens/facebook.png">
+        <img src="/Imagens/whatsapp.png">
+        </div>
+    </div>
+
+    </div>
     
 </body>
 </html>
