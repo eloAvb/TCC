@@ -1,0 +1,162 @@
+#box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+    html{
+      scroll-behavior: smooth;
+    }
+    
+    /* Define as propriedades para a tag body */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Define as propriedades para a tag header */
+    header {
+      background-color: #ffffff;
+      border-bottom: 1px solid #cccccc;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    
+    /* Define as propriedades para o logo */
+  
+    #area-logo img {
+      padding-right: 9%;
+      height: 30%;
+      width: 30%;
+    }
+    #area-logo h1 {
+      padding-left: 20%;
+      font-size: 30px;
+      margin: 0;
+      font-weight: bold;
+    }
+    
+    #area-logo span {
+      color: #0fb6ad;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    
+    /* Define as propriedades para a tag nav */
+    nav {
+      display: flex;
+    }
+    
+    /* Define as propriedades para o menu */
+    #area-menu {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    #area-menu li {
+      margin: 0 10px;
+    }
+    
+    #area-menu li:first-child {
+      margin-left: 0;
+    }
+    
+    #area-menu li:last-child {
+      margin-right: 0;
+    }
+    
+    #area-menu a {
+      text-decoration: none;
+      color: #333333;
+      padding: 4px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    #area-menu a:hover {
+      background-color: #f5f5f5;
+    }
+    
+    /* Define as propriedades para os botões */
+    #button-type-1 {
+      background-color: #0fb6ad;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    #button-type-1:hover {
+      background-color: #333333;
+    }
+    
+    #button-type-2 {
+      background-color: transparent;
+      color: #333333;
+      padding: 10px 20px;
+      border: 2px solid #333333;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    #button-type-2:hover {
+      background-color: #333333;
+      color: #ffffff;
+    }
+    
+    #container-cadastro {
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #container-cadastro h2{
+      padding-bottom: 4%;
+    }
+  
+    #input{
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      border: none;
+      border-bottom: 2px solid gray;
+      background-color: transparent;
+      font-size: 1.2rem;
+      width: 20rem;
+      transition: all 0.2s ease-in-out;
+    }
+  
+    #inserir{
+      width: 50%;
+      margin: 0px 0;
+      position: relative;
+    }
+  
+    #btn {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      background-color: #0fb6ad;
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
